@@ -1,0 +1,48 @@
+.container{
+	background-color: cornflowerblue;
+	border: solid 1px;
+	border-radius: 2px;
+	padding: 0px 20px 20px 20px;
+	margin-top:20px;
+	display: inline-block;
+	position: absolute;
+	left: 35%;
+}
+
+.displayNone{
+	display: none;
+}
+
+#message_body{
+	overflow: auto;
+	min-height: 200px;
+	min-width: 430px;
+	border: solid 1px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+#create_username{
+	padding: 10px;
+}
+
+button{
+	padding: 10px;
+}
+
+#show_users{
+	float: right;
+	background-color: cornflowerblue;
+	border: solid 1px;
+	border-radius: 2px;
+	padding: 0px 20px 20px 20px;
+	margin-top:20px;
+	min-height: 325px;
+	min-width: 200px;
+}
+
+textarea{
+	position: relative;
+    top: 16px;
+    padding: 5px;
+}

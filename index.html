@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<title>Chat io</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	<script src="index1.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div id = "username_container" class="container">
+		<h3>Create Username</h3>
+		<input type="text" id="create_username">
+		<button type="submit" id="submit_username">Submit</button>
+		<div id = "error_username" class="displayNone">Username is already taken</div>
+	</div>
+	
+	<div id= "message_container" class=" displayNone container">
+		<h3>Your Messages</h3>
+		<div id="message_body"></div>
+		<textarea id="messageToBeSent"></textarea>
+		<button type="submit" id="post_message">Submit</button>
+	</div>
+	<div id= "show_users" class="displayNone">
+	</div>
+</body>
+</html>
+
